@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    UIImageView *imageview = [[UIImageView alloc]initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 300)];
+    UIImageView *imageview = [[UIImageView alloc]initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 280)];
     imageview.image = [UIImage imageNamed:@"defaultImage"];
     [self.view addSubview:imageview];
     NSString *strUrl = @"https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=781554239,4182824888&fm=26&gp=0.jpg";
@@ -39,9 +39,18 @@
         }];
     }
     
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 380, self.view.bounds.size.width, 70)];
+    [self.view addSubview:label];
+    label.text = @"可以注意观察手势返回（点击右上角返回按钮）和点击清除缓存后重新点击进去的区别\n首次加载有动画，往后没有";
+    label.textAlignment = NSTextAlignmentCenter;
+    label.font = [UIFont systemFontOfSize:15];
+    label.numberOfLines = 0;
+    label.textColor = [UIColor blackColor];
+    
     UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(50, 458, self.view.bounds.size.width-100, 38)];
-    [btn setTitle:@"清除缓存()" forState:UIControlStateNormal];
-    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    btn.backgroundColor = [UIColor blueColor];
+    [btn setTitle:@"清除缓存" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
 }
