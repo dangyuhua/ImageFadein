@@ -18,6 +18,7 @@
 		FC18D5DC21AF965800562113 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC18D5DB21AF965800562113 /* main.m */; };
 		FC18D5E621AF965800562113 /* ImageFadeinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC18D5E521AF965800562113 /* ImageFadeinTests.m */; };
 		FC18D5F121AF965900562113 /* ImageFadeinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC18D5F021AF965900562113 /* ImageFadeinUITests.m */; };
+		FC18D60021AF9AC300562113 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC18D5FF21AF9AC300562113 /* SecondVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		FC18D5EC21AF965900562113 /* ImageFadeinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageFadeinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC18D5F021AF965900562113 /* ImageFadeinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFadeinUITests.m; sourceTree = "<group>"; };
 		FC18D5F221AF965900562113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC18D5FE21AF9AC300562113 /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		FC18D5FF21AF9AC300562113 /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 				FC18D5CD21AF965700562113 /* AppDelegate.m */,
 				FC18D5CF21AF965700562113 /* ViewController.h */,
 				FC18D5D021AF965700562113 /* ViewController.m */,
+				FC18D5FE21AF9AC300562113 /* SecondVC.h */,
+				FC18D5FF21AF9AC300562113 /* SecondVC.m */,
 				FC18D5D221AF965700562113 /* Main.storyboard */,
 				FC18D5D521AF965800562113 /* Assets.xcassets */,
 				FC18D5D721AF965800562113 /* LaunchScreen.storyboard */,
@@ -376,6 +381,7 @@
 			files = (
 				FC18D5D121AF965700562113 /* ViewController.m in Sources */,
 				FC18D5DC21AF965800562113 /* main.m in Sources */,
+				FC18D60021AF9AC300562113 /* SecondVC.m in Sources */,
 				FC18D5CE21AF965700562113 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
