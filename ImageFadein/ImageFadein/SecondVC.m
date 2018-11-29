@@ -19,6 +19,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     UIImageView *imageview = [[UIImageView alloc]initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 300)];
+    imageview.image = [UIImage imageNamed:@"defaultImage"];
     [self.view addSubview:imageview];
     NSString *strUrl = @"https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=781554239,4182824888&fm=26&gp=0.jpg";
     SDWebImageManager *manager = [SDWebImageManager sharedManager];
@@ -29,7 +30,7 @@
     if (image) {
         imageview.image = image;
     }else{
-        [imageview sd_setImageWithURL:[NSURL URLWithString:strUrl] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        [imageview sd_setImageWithURL:[NSURL URLWithString:strUrl] placeholderImage:[UIImage imageNamed:@"defaultImage"] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
             imageview.alpha = 0.0;
             //为了让动画效果明显一点动画时间设置了1秒，可以根据自己需要设置
             [UIView transitionWithView:imageview duration:1 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
