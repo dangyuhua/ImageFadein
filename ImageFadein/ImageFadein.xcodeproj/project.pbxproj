@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		771F56FFE783CA3CF1A78049 /* libPods-ImageFadeinTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C4DC5DCC16C554D6764D7B /* libPods-ImageFadeinTests.a */; };
+		C85F74AB95C0067C346A2C78 /* libPods-ImageFadeinUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B323253B2D4611C76C518D /* libPods-ImageFadeinUITests.a */; };
+		E09B9B2F202057A904B1D06C /* libPods-ImageFadein.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D084AA776165EF5F4AFA862 /* libPods-ImageFadein.a */; };
+		FC18D5CE21AF965700562113 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC18D5CD21AF965700562113 /* AppDelegate.m */; };
+		FC18D5D121AF965700562113 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC18D5D021AF965700562113 /* ViewController.m */; };
+		FC18D5D421AF965700562113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC18D5D221AF965700562113 /* Main.storyboard */; };
+		FC18D5D621AF965800562113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC18D5D521AF965800562113 /* Assets.xcassets */; };
+		FC18D5D921AF965800562113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC18D5D721AF965800562113 /* LaunchScreen.storyboard */; };
+		FC18D5DC21AF965800562113 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC18D5DB21AF965800562113 /* main.m */; };
+		FC18D5E621AF965800562113 /* ImageFadeinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC18D5E521AF965800562113 /* ImageFadeinTests.m */; };
+		FC18D5F121AF965900562113 /* ImageFadeinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC18D5F021AF965900562113 /* ImageFadeinUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC18D5E221AF965800562113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC18D5C121AF965700562113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC18D5C821AF965700562113;
+			remoteInfo = ImageFadein;
+		};
+		FC18D5ED21AF965900562113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC18D5C121AF965700562113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC18D5C821AF965700562113;
+			remoteInfo = ImageFadein;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01801479ACAA90B8E8248D29 /* Pods-ImageFadeinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageFadeinTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageFadeinTests/Pods-ImageFadeinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		04665B291DB493218FEF6046 /* Pods-ImageFadein.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageFadein.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageFadein/Pods-ImageFadein.release.xcconfig"; sourceTree = "<group>"; };
+		0D084AA776165EF5F4AFA862 /* libPods-ImageFadein.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImageFadein.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		110BA6CA08E16838F701D924 /* Pods-ImageFadeinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageFadeinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageFadeinUITests/Pods-ImageFadeinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		177778161AAB0CB4CE1BBD79 /* Pods-ImageFadeinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageFadeinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageFadeinTests/Pods-ImageFadeinTests.release.xcconfig"; sourceTree = "<group>"; };
+		65855B968D87D0C7FEA24E13 /* Pods-ImageFadeinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageFadeinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageFadeinUITests/Pods-ImageFadeinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B12D64E8700529255D7396B9 /* Pods-ImageFadein.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageFadein.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageFadein/Pods-ImageFadein.debug.xcconfig"; sourceTree = "<group>"; };
+		E7B323253B2D4611C76C518D /* libPods-ImageFadeinUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImageFadeinUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C4DC5DCC16C554D6764D7B /* libPods-ImageFadeinTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImageFadeinTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC18D5C921AF965700562113 /* ImageFadein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFadein.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC18D5CC21AF965700562113 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC18D5CD21AF965700562113 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC18D5CF21AF965700562113 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC18D5D021AF965700562113 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC18D5D321AF965700562113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC18D5D521AF965800562113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC18D5D821AF965800562113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC18D5DA21AF965800562113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC18D5DB21AF965800562113 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC18D5E121AF965800562113 /* ImageFadeinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageFadeinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC18D5E521AF965800562113 /* ImageFadeinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFadeinTests.m; sourceTree = "<group>"; };
+		FC18D5E721AF965800562113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC18D5EC21AF965900562113 /* ImageFadeinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageFadeinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC18D5F021AF965900562113 /* ImageFadeinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFadeinUITests.m; sourceTree = "<group>"; };
+		FC18D5F221AF965900562113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC18D5C621AF965700562113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09B9B2F202057A904B1D06C /* libPods-ImageFadein.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC18D5DE21AF965800562113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771F56FFE783CA3CF1A78049 /* libPods-ImageFadeinTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC18D5E921AF965900562113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85F74AB95C0067C346A2C78 /* libPods-ImageFadeinUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38D09BB13B00BE35ED7D8963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D084AA776165EF5F4AFA862 /* libPods-ImageFadein.a */,
+				E7C4DC5DCC16C554D6764D7B /* libPods-ImageFadeinTests.a */,
+				E7B323253B2D4611C76C518D /* libPods-ImageFadeinUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE426B7DEE070C223D1FFBB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B12D64E8700529255D7396B9 /* Pods-ImageFadein.debug.xcconfig */,
+				04665B291DB493218FEF6046 /* Pods-ImageFadein.release.xcconfig */,
+				01801479ACAA90B8E8248D29 /* Pods-ImageFadeinTests.debug.xcconfig */,
+				177778161AAB0CB4CE1BBD79 /* Pods-ImageFadeinTests.release.xcconfig */,
+				110BA6CA08E16838F701D924 /* Pods-ImageFadeinUITests.debug.xcconfig */,
+				65855B968D87D0C7FEA24E13 /* Pods-ImageFadeinUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC18D5C021AF965700562113 = {
+			isa = PBXGroup;
+			children = (
+				FC18D5CB21AF965700562113 /* ImageFadein */,
+				FC18D5E421AF965800562113 /* ImageFadeinTests */,
+				FC18D5EF21AF965900562113 /* ImageFadeinUITests */,
+				FC18D5CA21AF965700562113 /* Products */,
+				CE426B7DEE070C223D1FFBB0 /* Pods */,
+				38D09BB13B00BE35ED7D8963 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC18D5CA21AF965700562113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC18D5C921AF965700562113 /* ImageFadein.app */,
+				FC18D5E121AF965800562113 /* ImageFadeinTests.xctest */,
+				FC18D5EC21AF965900562113 /* ImageFadeinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC18D5CB21AF965700562113 /* ImageFadein */ = {
+			isa = PBXGroup;
+			children = (
+				FC18D5CC21AF965700562113 /* AppDelegate.h */,
+				FC18D5CD21AF965700562113 /* AppDelegate.m */,
+				FC18D5CF21AF965700562113 /* ViewController.h */,
+				FC18D5D021AF965700562113 /* ViewController.m */,
+				FC18D5D221AF965700562113 /* Main.storyboard */,
+				FC18D5D521AF965800562113 /* Assets.xcassets */,
+				FC18D5D721AF965800562113 /* LaunchScreen.storyboard */,
+				FC18D5DA21AF965800562113 /* Info.plist */,
+				FC18D5DB21AF965800562113 /* main.m */,
+			);
+			path = ImageFadein;
+			sourceTree = "<group>";
+		};
+		FC18D5E421AF965800562113 /* ImageFadeinTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC18D5E521AF965800562113 /* ImageFadeinTests.m */,
+				FC18D5E721AF965800562113 /* Info.plist */,
+			);
+			path = ImageFadeinTests;
+			sourceTree = "<group>";
+		};
+		FC18D5EF21AF965900562113 /* ImageFadeinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC18D5F021AF965900562113 /* ImageFadeinUITests.m */,
+				FC18D5F221AF965900562113 /* Info.plist */,
+			);
+			path = ImageFadeinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC18D5C821AF965700562113 /* ImageFadein */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC18D5F521AF965900562113 /* Build configuration list for PBXNativeTarget "ImageFadein" */;
+			buildPhases = (
+				C8FAA4DE439757D7D91BB38B /* [CP] Check Pods Manifest.lock */,
+				FC18D5C521AF965700562113 /* Sources */,
+				FC18D5C621AF965700562113 /* Frameworks */,
+				FC18D5C721AF965700562113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageFadein;
+			productName = ImageFadein;
+			productReference = FC18D5C921AF965700562113 /* ImageFadein.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC18D5E021AF965800562113 /* ImageFadeinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC18D5F821AF965900562113 /* Build configuration list for PBXNativeTarget "ImageFadeinTests" */;
+			buildPhases = (
+				AEFB80C2095976666D2A8A0F /* [CP] Check Pods Manifest.lock */,
+				FC18D5DD21AF965800562113 /* Sources */,
+				FC18D5DE21AF965800562113 /* Frameworks */,
+				FC18D5DF21AF965800562113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC18D5E321AF965800562113 /* PBXTargetDependency */,
+			);
+			name = ImageFadeinTests;
+			productName = ImageFadeinTests;
+			productReference = FC18D5E121AF965800562113 /* ImageFadeinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC18D5EB21AF965900562113 /* ImageFadeinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC18D5FB21AF965900562113 /* Build configuration list for PBXNativeTarget "ImageFadeinUITests" */;
+			buildPhases = (
+				EAA894B17BBF7AD627436D4A /* [CP] Check Pods Manifest.lock */,
+				FC18D5E821AF965900562113 /* Sources */,
+				FC18D5E921AF965900562113 /* Frameworks */,
+				FC18D5EA21AF965900562113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC18D5EE21AF965900562113 /* PBXTargetDependency */,
+			);
+			name = ImageFadeinUITests;
+			productName = ImageFadeinUITests;
+			productReference = FC18D5EC21AF965900562113 /* ImageFadeinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC18D5C121AF965700562113 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = dangyuhua;
+				TargetAttributes = {
+					FC18D5C821AF965700562113 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FC18D5E021AF965800562113 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FC18D5C821AF965700562113;
+					};
+					FC18D5EB21AF965900562113 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FC18D5C821AF965700562113;
+					};
+				};
+			};
+			buildConfigurationList = FC18D5C421AF965700562113 /* Build configuration list for PBXProject "ImageFadein" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC18D5C021AF965700562113;
+			productRefGroup = FC18D5CA21AF965700562113 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC18D5C821AF965700562113 /* ImageFadein */,
+				FC18D5E021AF965800562113 /* ImageFadeinTests */,
+				FC18D5EB21AF965900562113 /* ImageFadeinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC18D5C721AF965700562113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC18D5D921AF965800562113 /* LaunchScreen.storyboard in Resources */,
+				FC18D5D621AF965800562113 /* Assets.xcassets in Resources */,
+				FC18D5D421AF965700562113 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC18D5DF21AF965800562113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC18D5EA21AF965900562113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEFB80C2095976666D2A8A0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageFadeinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8FAA4DE439757D7D91BB38B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageFadein-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA894B17BBF7AD627436D4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageFadeinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC18D5C521AF965700562113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC18D5D121AF965700562113 /* ViewController.m in Sources */,
+				FC18D5DC21AF965800562113 /* main.m in Sources */,
+				FC18D5CE21AF965700562113 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC18D5DD21AF965800562113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC18D5E621AF965800562113 /* ImageFadeinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC18D5E821AF965900562113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC18D5F121AF965900562113 /* ImageFadeinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC18D5E321AF965800562113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC18D5C821AF965700562113 /* ImageFadein */;
+			targetProxy = FC18D5E221AF965800562113 /* PBXContainerItemProxy */;
+		};
+		FC18D5EE21AF965900562113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC18D5C821AF965700562113 /* ImageFadein */;
+			targetProxy = FC18D5ED21AF965900562113 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC18D5D221AF965700562113 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC18D5D321AF965700562113 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC18D5D721AF965800562113 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC18D5D821AF965800562113 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC18D5F321AF965900562113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC18D5F421AF965900562113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC18D5F621AF965900562113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12D64E8700529255D7396B9 /* Pods-ImageFadein.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK6W4XWH24;
+				INFOPLIST_FILE = ImageFadein/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dangyuhua.ImageFadein;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC18D5F721AF965900562113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04665B291DB493218FEF6046 /* Pods-ImageFadein.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK6W4XWH24;
+				INFOPLIST_FILE = ImageFadein/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dangyuhua.ImageFadein;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC18D5F921AF965900562113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01801479ACAA90B8E8248D29 /* Pods-ImageFadeinTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK6W4XWH24;
+				INFOPLIST_FILE = ImageFadeinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dangyuhua.ImageFadeinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageFadein.app/ImageFadein";
+			};
+			name = Debug;
+		};
+		FC18D5FA21AF965900562113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177778161AAB0CB4CE1BBD79 /* Pods-ImageFadeinTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK6W4XWH24;
+				INFOPLIST_FILE = ImageFadeinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dangyuhua.ImageFadeinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageFadein.app/ImageFadein";
+			};
+			name = Release;
+		};
+		FC18D5FC21AF965900562113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110BA6CA08E16838F701D924 /* Pods-ImageFadeinUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK6W4XWH24;
+				INFOPLIST_FILE = ImageFadeinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dangyuhua.ImageFadeinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageFadein;
+			};
+			name = Debug;
+		};
+		FC18D5FD21AF965900562113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65855B968D87D0C7FEA24E13 /* Pods-ImageFadeinUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK6W4XWH24;
+				INFOPLIST_FILE = ImageFadeinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dangyuhua.ImageFadeinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageFadein;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC18D5C421AF965700562113 /* Build configuration list for PBXProject "ImageFadein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC18D5F321AF965900562113 /* Debug */,
+				FC18D5F421AF965900562113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC18D5F521AF965900562113 /* Build configuration list for PBXNativeTarget "ImageFadein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC18D5F621AF965900562113 /* Debug */,
+				FC18D5F721AF965900562113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC18D5F821AF965900562113 /* Build configuration list for PBXNativeTarget "ImageFadeinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC18D5F921AF965900562113 /* Debug */,
+				FC18D5FA21AF965900562113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC18D5FB21AF965900562113 /* Build configuration list for PBXNativeTarget "ImageFadeinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC18D5FC21AF965900562113 /* Debug */,
+				FC18D5FD21AF965900562113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC18D5C121AF965700562113 /* Project object */;
+}
