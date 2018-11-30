@@ -39,7 +39,7 @@
         }];
     }
     
-    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 380, self.view.bounds.size.width, 70)];
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 380, self.view.bounds.size.width, 100)];
     [self.view addSubview:label];
     label.text = @"可以注意观察手势返回（点击右上角返回按钮）和点击清除缓存后重新点击进去的区别\n首次加载有动画，往后没有";
     label.textAlignment = NSTextAlignmentCenter;
@@ -47,7 +47,7 @@
     label.numberOfLines = 0;
     label.textColor = [UIColor blackColor];
     
-    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(50, 458, self.view.bounds.size.width-100, 38)];
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(50, 488, self.view.bounds.size.width-100, 38)];
     btn.backgroundColor = [UIColor blueColor];
     [btn setTitle:@"清除缓存" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
